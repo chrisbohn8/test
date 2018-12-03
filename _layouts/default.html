@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  {% include header.html %}
+  {{ content | markdownify }}
+  {% include footer.html %}
+</body>
+</html>
