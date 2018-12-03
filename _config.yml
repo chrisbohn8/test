@@ -14,9 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Portfolio
-email: chrisbohn8@protonmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-    Personal Porfolio by Christopher Bohn
+author:
+  name: Christopher Bohn
+  job: Web Developer
+  email: chrisbohn8@protonmail.com
+
+description: Personal Porfolio by Christopher Bohn
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -28,6 +31,9 @@ plugins:
 collections:
   projects:
     output: true
+  posts:
+    output: true
+    permalink: /blog/:title
 
 defaults:
   - scope:
