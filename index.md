@@ -2,5 +2,7 @@
 layout: home
 title: Home
 ---
+{% include intro.html %}
+# Projects
 
-# Hello World!
+{% include projects.html %}
