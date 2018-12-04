@@ -20,7 +20,7 @@ author:
   email: chrisbohn8@protonmail.com
 
 description: Personal Porfolio by Christopher Bohn
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
