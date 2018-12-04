@@ -20,8 +20,8 @@ author:
   email: chrisbohn8@protonmail.com
 
 description: Personal Porfolio by Christopher Bohn
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "https://chrisbohn8.gitlab.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://chrisbohn8.gitlab.io/portfolio" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
