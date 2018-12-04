@@ -1,14 +1,16 @@
-<h3>
-  <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
-</h3>
-<ul>
-  <li>
-    <a href="{{ '/about' | prepend: site.baseurl }}">About Me</a>
-  </li>
-  <li>
-    <a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
- </li>
- <li>
-    <a href="{{ '/resume' | prepend: site.baseurl }}">Resume</a>
- </li>
-</ul>
+<div class="header">
+  <h3>
+    <a href="{{ '/' | prepend: site.baseurl }}" id="home">Home</a>
+  </h3>
+  <ul class="nav">
+    <li>
+      <a class="nav__item" href="{{ '/about' | prepend: site.baseurl }}">About Me</a>
+    </li>
+    <li>
+      <a class="nav__item" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
+   </li>
+   <li>
+      <a class="nav__item" href="{{ '/resume' | prepend: site.baseurl }}">Resume</a>
+   </li>
+  </ul>
+</div>

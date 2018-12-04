@@ -1,10 +1,26 @@
+// Color ids
+#white { color: $white; }
+#black { color: $black; }
+#red { color: $red; }
+#green { color: $green; }
+#yellow { color: $yellow; }
+#blue { color: $blue; }
+#purple { color: $purple; }
+#aqua { color: $aqua; }
+#gray { color: $gray; }
+#orange { color: $orange; }
+
+// General Rules
 html {
   background: $white;
   color: $black;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 a:link, a:visited {
@@ -16,13 +32,50 @@ a:hover {
   color: $purple;
 }
 
-#white { color: $white; }
-#black { color: $black; }
-#red { color: $red; }
-#green { color: $green; }
-#yellow { color: $yellow; }
-#blue { color: $blue; }
-#purple { color: $purple; }
-#aqua { color: $aqua; }
-#gray { color: $gray; }
-#orange { color: $orange; }
+// Header
+.header {
+  margin-top: 2rem;
+}
+#home {
+  color: $red;
+  display: block;
+  margin-left: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: .2rem;
+  text-align: start;
+}
+
+#home:hover{
+  text-decoration: underline;
+}
+
+.nav {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.nav__item {
+  font-size: 1.3rem;
+  padding: .5rem;
+  font-weight: 650;
+}
+
+// Intro
+#intro__name {
+  font-size: 4rem;
+}
+
+#intro__job {
+  font-size: 3rem;
+}
+
+// Social Icons
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__icons {
+  font-size: 1rem;
+}

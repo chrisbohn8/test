@@ -1,4 +1,9 @@
 ---
 ---
+@font-face {
+    font-family: 'Quicksand';
+    src: url('{{ site.baseurl }}/assets/webfonts/Quicksand-Regular.otf');
+}
+
 @import "gruvbox";
 @import "main";
