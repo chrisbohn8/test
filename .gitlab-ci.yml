@@ -20,7 +20,7 @@ test:
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+  - bundle exec jekyll serve
   artifacts:
     paths:
     - public
