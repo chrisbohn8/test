@@ -73,9 +73,11 @@ a:hover {
 // Social Icons
 .social {
   display: flex;
+  flex-flow: row-wrap;
   justify-content: center;
 }
 
 .social__icons {
-  font-size: 1rem;
+  font-size: 3rem;
+  padding: 1rem;
 }
