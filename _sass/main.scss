@@ -1,0 +1,28 @@
+html {
+  background: $white;
+  color: $black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: $blue;
+}
+
+a:hover {
+  color: $purple;
+}
+
+#white { color: $white; }
+#black { color: $black; }
+#red { color: $red; }
+#green { color: $green; }
+#yellow { color: $yellow; }
+#blue { color: $blue; }
+#purple { color: $purple; }
+#aqua { color: $aqua; }
+#gray { color: $gray; }
+#orange { color: $orange; }
